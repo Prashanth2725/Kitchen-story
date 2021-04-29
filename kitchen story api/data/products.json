@@ -1,0 +1,446 @@
+[
+  {
+    "_id": {
+      "$oid": "5eb694d867972149a0661a17"
+    },
+    "name": "Brocoli 100g",
+    "price": 50,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\brocoli.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb694f167972149a0661a18"
+    },
+    "name": "Brinjal 500g",
+    "price": 30,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\brinjal.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6950867972149a0661a19"
+    },
+    "name": "Cabbage",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\cabbage.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6967a67972149a0661a1a"
+    },
+    "name": "Apple 500g",
+    "price": 100,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\apple.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb696aa67972149a0661a1b"
+    },
+    "name": "Banana 1kg",
+    "price": 45,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\banana.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb696c767972149a0661a1c"
+    },
+    "name": "Grapes 500g",
+    "price": 30,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\grapes.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb696e567972149a0661a1d"
+    },
+    "name": "kiwi",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\kiwi.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6976a67972149a0661a1e"
+    },
+    "name": "Mango 1kg",
+    "price": 100,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\mango.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb697a367972149a0661a1f"
+    },
+    "name": "Orange 1kg",
+    "price": 50,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\orange.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb697c767972149a0661a20"
+    },
+    "name": "Papaya",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\papya.jpeg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6981267972149a0661a21"
+    },
+    "name": "Pineapple",
+    "price": 30,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\pineapple.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6982367972149a0661a22"
+    },
+    "name": "WaterMelon",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6946a67972149a0661a11"
+    },
+    "productImage": "uploads\\watermelon.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a39867972149a0661a23"
+    },
+    "name": "Carrot 500g",
+    "price": 40,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\carrot.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a3a267972149a0661a24"
+    },
+    "name": "Cauliflower",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\cauliflower.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a40267972149a0661a25"
+    },
+    "name": "Cucumber 1kg",
+    "price": 30,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\cucumber.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a41267972149a0661a26"
+    },
+    "name": "Lady Finger",
+    "price": 25,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\ladyfinger.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a46167972149a0661a27"
+    },
+    "name": "Methi",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\methi.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a47067972149a0661a28"
+    },
+    "name": "Spinach",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\spinach.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a48067972149a0661a29"
+    },
+    "name": "Tomato 1kg",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6945d67972149a0661a10"
+    },
+    "productImage": "uploads\\tomato.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a50c67972149a0661a2a"
+    },
+    "name": "Aloo Lacha",
+    "price": 50,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\aloolacha.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a53e67972149a0661a2b"
+    },
+    "name": "Barbeque Lays",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\barbequeLays.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a56e67972149a0661a2c"
+    },
+    "name": "green Lays",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\greenlays.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a57767972149a0661a2d"
+    },
+    "name": "Haldiram Peanuts",
+    "price": 10,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\peanuts.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a59167972149a0661a2e"
+    },
+    "name": "Pingles Pack of 3",
+    "price": 100,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\pringlespack.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a5ad67972149a0661a2f"
+    },
+    "name": "Haldiram Shev",
+    "price": 120,
+    "category": {
+      "$oid": "5eb6948a67972149a0661a14"
+    },
+    "productImage": "uploads\\shev.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a62567972149a0661a30"
+    },
+    "name": "Everest Garam Masala",
+    "price": 50,
+    "category": {
+      "$oid": "5eb6947667972149a0661a12"
+    },
+    "productImage": "uploads\\everstgaram.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a63a67972149a0661a31"
+    },
+    "name": "Catch Jeera",
+    "price": 89,
+    "category": {
+      "$oid": "5eb6947667972149a0661a12"
+    },
+    "productImage": "uploads\\jeera.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a65167972149a0661a32"
+    },
+    "name": "Pani Puri Masala",
+    "price": 85,
+    "category": {
+      "$oid": "5eb6947667972149a0661a12"
+    },
+    "productImage": "uploads\\panipuri.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a66967972149a0661a33"
+    },
+    "name": "Catch Red Chilli Powder",
+    "price": 60,
+    "category": {
+      "$oid": "5eb6947667972149a0661a12"
+    },
+    "productImage": "uploads\\redchilli.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a71a67972149a0661a34"
+    },
+    "name": "Boat Amrus",
+    "price": 18,
+    "category": {
+      "$oid": "5eb6948067972149a0661a13"
+    },
+    "productImage": "uploads\\boat.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a72a67972149a0661a35"
+    },
+    "name": "Cocola 500ml",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6948067972149a0661a13"
+    },
+    "productImage": "uploads\\cococola.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a73667972149a0661a36"
+    },
+    "name": "Pepsi 2l",
+    "price": 60,
+    "category": {
+      "$oid": "5eb6948067972149a0661a13"
+    },
+    "productImage": "uploads\\pepsi.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a77f67972149a0661a37"
+    },
+    "name": "Modern Bread",
+    "price": 20,
+    "category": {
+      "$oid": "5eb6949c67972149a0661a15"
+    },
+    "productImage": "uploads\\modernbread.png",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a7c967972149a0661a38"
+    },
+    "name": "Tomato - Hybrid, 1 kg",
+    "price": 19,
+    "category": {
+      "$oid": "5eb6949c67972149a0661a15"
+    },
+    "productImage": "uploads\\10000200-2_2-fresho-tomato-hybrid.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a7e067972149a0661a39"
+    },
+    "name": "Pizza Bread",
+    "price": 39,
+    "category": {
+      "$oid": "5eb6949c67972149a0661a15"
+    },
+    "productImage": "uploads\\pizzabread.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a7f667972149a0661a3a"
+    },
+    "name": "Amul Taza Milk",
+    "price": 22,
+    "category": {
+      "$oid": "5eb6949c67972149a0661a15"
+    },
+    "productImage": "uploads\\milk.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5eb6a80c67972149a0661a3b"
+    },
+    "name": "Amul Butter",
+    "price": 18,
+    "category": {
+      "$oid": "5eb6949c67972149a0661a15"
+    },
+    "productImage": "uploads\\amul.jpg",
+    "__v": 0
+  }
+]

@@ -1,0 +1,37 @@
+<nav *ngIf='!isAdminUrl' class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" routerLink='/store'>KitchenStory</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" >
+        <li class="nav-item active" [hidden]='!isLoggedIn'>
+          <a class="nav-link" routerLink=''>Store <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" [hidden]='!isAdmin' >
+          <a class="nav-link" routerLink='/admin'>Admin Dashboard</a>
+        </li>
+        <input [hidden]='!isLoggedIn' class="form-control form-control-light w-50"  [(ngModel)]="search" type="text" placeholder="Search here" aria-label="Search">
+      </ul>
+      <ul class="navbar-nav my-2 my-lg-0">
+        <li class="nav-item active"[hidden]='!isLoggedIn' >
+          <a class="nav-link" routerLink='/orders'>Orders <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" [hidden]='!isLoggedIn'>
+          <a class="nav-link" routerLink='/cart'>Cart <span class="badge badge-primary">{{numberOfItems}}</span></a>
+        </li>
+        <li class="nav-item active" [hidden]='isLoggedIn'>
+            <a class="nav-link" routerLink='/login'>Login <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" [hidden]='!isLoggedIn'>
+            <a class="nav-link" (click)='logout();' href="javascript:void(0)">Logout</a>
+          </li>
+          <li class="nav-item"[hidden]='isLoggedIn'>
+            <a class="nav-link" routerLink='/signup'>Sign Up</a>
+          </li>
+        
+    </ul>
+  </div>
+</nav>
